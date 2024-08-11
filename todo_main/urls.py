@@ -21,7 +21,7 @@ from . import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", views.home, name = 'Todo App'),
+    path("", views.home, name = 'home'),
     
     # TO DO
     path("todo/", include('todos.urls'))
